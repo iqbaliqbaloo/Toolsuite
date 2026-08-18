@@ -226,5 +226,5 @@
 - [x] Verify production build with a standard NODE_ENV=production script and no inherited sandbox overrides
 - [x] Validate homepage and all 30 tool routes in the Next.js production server
 - [x] Run final Next.js typecheck, lint, and regression tests
-- [ ] Replace the stable GitHub main branch with the verified Next.js App Router source
+- [x] Replace the stable GitHub main branch with the verified Next.js App Router source
 - [ ] Save the final migration checkpoint and publish the verified Next.js version
