@@ -1,0 +1,743 @@
+{
+  "summary": {
+    "totalChecks": 36,
+    "routeCount": 30,
+    "httpFailures": [],
+    "missingTitles": [],
+    "missingH1": [],
+    "overflow": [],
+    "consoleErrors": [],
+    "failedRequests": [],
+    "interactionCoverage": {
+      "run": 28,
+      "reset": 25,
+      "feedback": 25,
+      "download": 7,
+      "theme": 1
+    }
+  },
+  "results": [
+    {
+      "route": "/",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "ToolSuite — Free Online Productivity Tools",
+      "h1": "Everything useful, in one calm workspace.",
+      "inputs": 1,
+      "buttons": 69,
+      "overflow": false,
+      "dark": true,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": true,
+        "search": true
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/qr",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Free QR Code Generator — Create Custom QR Codes Instantly | ToolSuite",
+      "h1": "QR Code Generator",
+      "inputs": 7,
+      "buttons": 31,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/password",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Free Password Generator — Secure Random Passwords & Passphrases | ToolSuite",
+      "h1": "Secure Password Generator",
+      "inputs": 3,
+      "buttons": 30,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/resume",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Free Resume Builder — ATS-Optimized CV Maker with Live Preview | ToolSuite",
+      "h1": "Resume Builder",
+      "inputs": 13,
+      "buttons": 97,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/invoice",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Free Invoice Generator — Professional Invoice Maker in 150+ Currencies | ToolSuite",
+      "h1": "Invoice Generator",
+      "inputs": 26,
+      "buttons": 42,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/uuid",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Free UUID Generator — Bulk Generate v1, v4 & v5 UUIDs Online | ToolSuite",
+      "h1": "UUID Generator",
+      "inputs": 2,
+      "buttons": 29,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/age",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Age Calculator — Exact Age in Years, Months, Days & Hours | ToolSuite",
+      "h1": "Age Calculator",
+      "inputs": 2,
+      "buttons": 23,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/bmi",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "BMI Calculator — Body Mass Index with Healthy Weight Range | ToolSuite",
+      "h1": "BMI Calculator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/currency",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Currency Converter — Live Exchange Rates for 150+ Currencies | ToolSuite",
+      "h1": "Currency Converter",
+      "inputs": 3,
+      "buttons": 31,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/compound-interest",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Compound Interest Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Compound Interest Calculator",
+      "inputs": 5,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/crypto-roi",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Crypto ROI & Profit Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Crypto ROI & Profit Calculator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/mortgage",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Mortgage Amortization Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Mortgage Amortization Calculator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/salary-after-tax",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Salary After Tax Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Salary After Tax Calculator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/freelance-rate",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Freelance Hourly Rate Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Freelance Hourly Rate Calculator",
+      "inputs": 5,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/investment-return",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Investment Return Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Investment Return Calculator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/percentage",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Percentage Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Percentage Calculator",
+      "inputs": 2,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/sitemap",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "XML Sitemap Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "XML Sitemap Generator",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/htaccess",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Htaccess Redirect Code Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Htaccess Redirect Code Generator",
+      "inputs": 3,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/robots",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Robots.txt Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Robots.txt Generator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/domain-age",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Domain Authority/Age Checker — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Domain Authority/Age Checker",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/social-share",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Website Social Share Link Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Website Social Share Link Generator",
+      "inputs": 2,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/json-csv",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "JSON to CSV Converter — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "JSON to CSV Converter",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/regex",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Regex Cheat Sheet & Tester — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Regex Cheat Sheet & Tester",
+      "inputs": 3,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/sql",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "SQL Query Formatter — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "SQL Query Formatter",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/yaml",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "YAML Validator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "YAML Validator",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/crontab",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Crontab Expression Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Crontab Expression Generator",
+      "inputs": 5,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/timezone",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Time Zone Converter — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Time Zone Converter",
+      "inputs": 3,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/image/svg-to-png",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "SVG to PNG Converter — Visual Tools Utility | ToolSuite",
+      "h1": "SVG to PNG Converter",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/flexbox",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "CSS Flexbox Generator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "CSS Flexbox Generator",
+      "inputs": 4,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/utm",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "UTM Link Builder — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "UTM Link Builder",
+      "inputs": 5,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/subnet",
+      "viewport": "1280x720",
+      "status": 200,
+      "title": "Subnet Calculator — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "Subnet Calculator",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/",
+      "viewport": "375x812",
+      "status": 200,
+      "title": "ToolSuite — Free Online Productivity Tools",
+      "h1": "Everything useful, in one calm workspace.",
+      "inputs": 1,
+      "buttons": 69,
+      "overflow": false,
+      "dark": false,
+      "interactions": {
+        "run": false,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false,
+        "search": true
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/calculator/compound-interest",
+      "viewport": "375x812",
+      "status": 200,
+      "title": "Compound Interest Calculator — Finance & Calculator Tools Utility | ToolSuite",
+      "h1": "Compound Interest Calculator",
+      "inputs": 5,
+      "buttons": 27,
+      "overflow": false,
+      "dark": true,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/developer/json-csv",
+      "viewport": "375x812",
+      "status": 200,
+      "title": "JSON to CSV Converter — Developer & Webmaster Tools Utility | ToolSuite",
+      "h1": "JSON to CSV Converter",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": true,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/generator/password",
+      "viewport": "375x812",
+      "status": 200,
+      "title": "Free Password Generator — Secure Random Passwords & Passphrases | ToolSuite",
+      "h1": "Secure Password Generator",
+      "inputs": 3,
+      "buttons": 30,
+      "overflow": false,
+      "dark": true,
+      "interactions": {
+        "run": true,
+        "reset": false,
+        "feedback": false,
+        "download": false,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    },
+    {
+      "route": "/image/svg-to-png",
+      "viewport": "375x812",
+      "status": 200,
+      "title": "SVG to PNG Converter — Visual Tools Utility | ToolSuite",
+      "h1": "SVG to PNG Converter",
+      "inputs": 1,
+      "buttons": 27,
+      "overflow": false,
+      "dark": true,
+      "interactions": {
+        "run": true,
+        "reset": true,
+        "feedback": true,
+        "download": true,
+        "theme": false
+      },
+      "errors": [],
+      "failed": []
+    }
+  ]
+}
