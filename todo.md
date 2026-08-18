@@ -228,3 +228,10 @@
 - [x] Run final Next.js typecheck, lint, and regression tests
 - [x] Replace the stable GitHub main branch with the verified Next.js App Router source
 - [ ] Save the final migration checkpoint and publish the verified Next.js version
+
+# Full-project Next.js Verification Request
+
+- [x] Verify every published project boundary is Next.js App Router-compatible, including package scripts, dependencies, source tree, and deployment configuration
+- [x] Remove or replace any remaining non-Next.js architectural remnants discovered during verification
+- [x] Re-run full build, typecheck, lint, tests, and all 30 route checks after the full-project verification
+- [ ] Push the final full-project Next.js state to iqbaliqbaloo/Toolsuite and report the exact commit
